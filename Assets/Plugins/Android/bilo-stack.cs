@@ -122,7 +122,9 @@ namespace Bilo.Stack
 
     public enum BlockType
     {
-        Block4x2, Block2x2, Base10x10
+        Block4x2, Block2x2, Base10x10 
+
+        , Block2x1 , Block4x1 // these are for vertical
     }
 
     public class Vector
